@@ -1,5 +1,15 @@
 # mattpocock-skills
 
+## 1.4.0
+
+### Minor Changes
+
+- [`02fe585`](https://github.com/mattpocock/skills/commit/02fe58507976991ab253dbe9316fc938de50a416) Thanks [@mattpocock](https://github.com/mattpocock)! - Reshape the **`prototype`** skill's logic branch to produce a **single shareable HTML file** instead of a terminal app. The demo is one self-contained file (plain HTML/CSS/JS, no build, no server) a non-developer can open by double-click and drive in their own domain language: a labelled state panel, always-available free-play buttons, and a set of tabbed **guided walkthroughs** — each a scenario with the ordered buttons to press underneath it. The portable pure-logic module still lifts into the real code; the HTML shell is the throwaway primary source.
+
+### Patch Changes
+
+- [#1342](https://github.com/mattpocock/skills/pull/1342) [`a496f55`](https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa) Thanks [@mattpocock](https://github.com/mattpocock)! - `implement-spec` now uses a fresh implementer subagent for each ticket and for the code-review fixes, instead of reusing an earlier implementer.
+
 ## 1.3.2
 
 ### Patch Changes
